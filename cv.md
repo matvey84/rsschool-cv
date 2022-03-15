@@ -22,3 +22,27 @@
 * CSS (Bootstrap)
 * JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript, React, Redux, Angular(in progress))
 * Git/GitHub
+## Code Example
+Sample code from the program for recruiting students for training at EPAM in February 2022 (Mogilev)
+
+You need to calculate the sum of the numbers that are below the main axis of the matrix:
+```
+let strArr = [ '1 2 22 55 63', '2 5 0', '3 0 0', '99 99 99 999 99999 999 999 99', '0 0 0 0 0', ]
+solution = function (strArr) {
+  let matrix = []
+  for(let i=0; i < strArr.length; i++){
+  let arr = strArr[i].split(' ').map(Number)
+  matrix.push(arr)
+}
+let result = matrix.map(item=>{return Math.min(...item)}).reduce((sum,num)=>sum+num,0)
+return result
+};
+```
+## Education
+* Belorussian Institut of Law (2003-2009)
+* [HTMLAcademy](https://htmlacademy.ru/courses) (spring 2021), before starting studies at STEP Computer Academy
+* [Computer Academy STEP](https://mogilev.itstep.by/about-academy/) (2021-2022) Front-End
+* [Result School ](https://vladilen.ru/)by Vladilen Minin, Angular (in progress)
+
+## Languages
+* English A1+ (in progress) by [Underground Language Club](https://ulc.by/)
