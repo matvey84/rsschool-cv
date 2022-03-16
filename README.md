@@ -1,1 +1,1 @@
-https://matvey84.github.io/rsschool-cv/сv
+https://matvey84.github.io/rsschool-cv/index
