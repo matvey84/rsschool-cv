@@ -107,11 +107,11 @@ function slowScroll() {
       const currentBlock = document.getElementById(blockID);
         if (e.target.classList.contains('nav-link') || e.target.classList.contains('burger-nav-link')) {currentBlock.scrollIntoView({
           behavior: 'smooth',
-          block: 'center'
+          block: 'center',
         })
       }
     })
-    cvContainer.style.marginTop = headerHeight + 'px'
+    cvContainer.style.marginTop = headerHeight + 'px';
   }
 }
 
