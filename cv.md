@@ -1,9 +1,7 @@
-
   <kbd>
     <img class="cv-img" src="https://i.postimg.cc/k5mLYY0n/denisPNG.png" style="width: 250px; height: 320px"
     alt="Matvev Denis">
   </kbd>
-
 
 # Denis Matveev
 
